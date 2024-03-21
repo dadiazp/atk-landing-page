@@ -17,6 +17,7 @@ export enum TextColorEnum {
   "text-primary-700" = "text-primary-700",
   "text-primary-paper" = "text-primary-paper",
   "text-tertiary-main" = "text-tertiary-main",
+  "text-tertiary-footer" = "text-tertiary-footer",
 }
 
 export type TextColorType = keyof typeof TextColorEnum;
@@ -67,6 +68,7 @@ const textStyles: TextStyles = {
     [TextColorEnum["text-primary-700"]]: "text-primary-700",
     [TextColorEnum["text-primary-paper"]]: "text-primary-paper",
     [TextColorEnum["text-tertiary-main"]]: "text-tertiary-main",
+    [TextColorEnum["text-tertiary-footer"]]: "text-tertiary-footer",
   },
 };
 
@@ -99,9 +101,9 @@ const Text: FC<TextProps> = ({
   colorVariant = TextColorEnum["text-tertiary-main"],
   className,
 }) => {
-  let classNameString: string = `${className ? className : ""} ${
-    textStyles.fontSize[fontSizeVariant]
-  } ${textStyles.color[colorVariant]} ${fontWeightVariant}`;
+  let classNameString: string = `${textStyles.fontSize[fontSizeVariant]} ${
+    textStyles.color[colorVariant]
+  } ${fontWeightVariant} ${className ? className : ""}`;
   return <Component className={classNameString}>{children}</Component>;
 };
 
