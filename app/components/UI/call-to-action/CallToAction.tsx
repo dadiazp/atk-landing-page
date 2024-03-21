@@ -45,7 +45,7 @@ const CallToAction: FC<CallToActionProps> = ({
         <Text
           colorVariant={titleColor}
           fontWeightVariant={titleWeight}
-          className="!text-3xl !sm:text-5xl"
+          className="!text-3xl sm:!text-5xl"
         >
           {title}
         </Text>
@@ -56,7 +56,7 @@ const CallToAction: FC<CallToActionProps> = ({
         </Text>
       )}
       {enableButtons && (
-        <div className="flex flex-col md:flex-row gap-0 md:gap-3">
+        <div className="flex flex-col md:flex-row gap-2 md:gap-3">
           <Button
             className="bg-primary-paper text-tertiary-inverse mt-1 md:mt-10"
             variant={

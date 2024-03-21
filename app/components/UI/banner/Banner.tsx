@@ -20,7 +20,7 @@ const Banner: FC<BannerProps> = ({ chipLabel, title, subtitle }) => {
         <Text
           Component="h3"
           colorVariant={TextColorEnum["text-primary-900"]}
-          className="my-5 !text-3xl !sm:text-4xl"
+          className="my-5 !text-3xl sm:!text-4xl"
         >
           {title}
         </Text>

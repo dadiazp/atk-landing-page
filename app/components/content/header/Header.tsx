@@ -16,7 +16,7 @@ const Header = () => {
             <Text
               Component={TextComponentEnum["h1"]}
               colorVariant={TextColorEnum["text-primary-paper"]}
-              className="!text-4xl !sm:text-6xl"
+              className="!text-4xl sm:!text-6xl"
             >
               Grow your users.
               <p className="mt-6 text-primary-200">Smarter.</p>
