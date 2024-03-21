@@ -1,8 +1,8 @@
+import DeliverIcon from "@/app/assets/svg-components/DeliverIcon";
 import InboxIcon from "@/app/assets/svg-components/InboxIcon";
+import ReportIcon from "@/app/assets/svg-components/ReportIcon";
 import Banner from "../../UI/banner/Banner";
 import CardList, { Data } from "../../UI/banner/card-list/CardList";
-import DeliverIcon from "@/app/assets/svg-components/DeliverIcon";
-import ReportIcon from "@/app/assets/svg-components/ReportIcon";
 
 const FEATURES: Data[] = [
   {
