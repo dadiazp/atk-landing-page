@@ -12,6 +12,7 @@ const config: Config = {
     },
     extend: {
       screens: {
+        fold: "300px",
         ssm: "470px",
       },
       backgroundImage: {

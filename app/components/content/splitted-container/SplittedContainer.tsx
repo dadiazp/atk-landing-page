@@ -43,7 +43,9 @@ const SplittedContainer: FC<SplittedContainerProps> = ({
       <div
         className={`w-full md:w-2/5 bg-cover ${
           inversed ? "md:rounded-l-3xl" : "md:rounded-r-3xl"
-        } bg-no-repeat h-full ${inversed ? "order-first" : "order-last"}`}
+        } bg-no-repeat h-full ${
+          inversed ? "order-first" : "order-last"
+        } bg-top sm:bg-center xl:bg-top`}
         style={{ backgroundImage: `url(${callToActionBackground})` }}
       ></div>
     </div>

@@ -12,7 +12,6 @@ const FreeTrial = () => {
           className="px-0 md:px-0"
           titleColor={TextColorEnum["text-primary-900"]}
           subtitleColor={TextColorEnum["text-tertiary-main"]}
-          titleSize={TextSizeEnum["display-medium"]}
         />
         <Mosaic />
       </div>

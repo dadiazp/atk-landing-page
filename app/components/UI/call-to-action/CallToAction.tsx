@@ -15,7 +15,6 @@ interface CallToActionProps {
   className?: string;
   titleColor?: TextColorType;
   titleWeight?: TextWeightType;
-  titleSize?: TextSizeType;
   subtitleColor?: TextColorType;
   enableButtons?: boolean;
   header?: JSX.Element;
@@ -28,7 +27,6 @@ const CallToAction: FC<CallToActionProps> = ({
   className,
   titleColor = TextColorEnum["text-primary-paper"],
   titleWeight = TextWeightEnum["font-semibold"],
-  titleSize = TextSizeEnum["display-small"],
   subtitleColor = TextColorEnum["text-primary-200"],
   enableButtons = true,
   header,
@@ -36,7 +34,7 @@ const CallToAction: FC<CallToActionProps> = ({
 }) => {
   return (
     <div
-      className={`py-10 sm:py-16 w-full md:w-3/5 ${
+      className={`py-10 md:py-12 w-full md:w-3/5 ${
         header ? "flex flex-col justify-around" : "my-auto"
       } text-left ${className ? className : ""}`}
     >
@@ -45,7 +43,7 @@ const CallToAction: FC<CallToActionProps> = ({
         <Text
           colorVariant={titleColor}
           fontWeightVariant={titleWeight}
-          className="!text-3xl sm:!text-5xl"
+          className="!text-xl fold:!text-3xl xl:!text-5xl"
         >
           {title}
         </Text>

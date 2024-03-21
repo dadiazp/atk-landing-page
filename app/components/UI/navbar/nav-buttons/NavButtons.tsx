@@ -3,7 +3,7 @@ import Text, { TextColorEnum } from "../../text/Text";
 
 const NavButtons = () => {
   return (
-    <div className="flex gap-3">
+    <div className="flex  gap-3">
       <Button type="button" variant={Variant.OUTLINED}>
         <Text>{"Log in"}</Text>
       </Button>

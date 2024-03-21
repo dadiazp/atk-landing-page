@@ -6,6 +6,7 @@ import FreeTrial from "./components/content/free-trial/FreeTrial";
 import GetStarted from "./components/content/get-started/GetStarted";
 import Header from "./components/content/header/Header";
 import Integrations from "./components/content/integrations/Integrations";
+import Testimonials from "./components/content/testimonials/Testimonials";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
       <Features />
       <FreeTrial />
       <FAQ />
+      <Testimonials />
       <Footer />
     </>
   );

@@ -22,9 +22,9 @@ const Navbar: FC<NavbarProps> = ({ footer = false }) => {
     <nav>
       <div className="px-2 lg:px-16">
         <div
-          className={`relative flex flex-col sm:flex-row h-16 items-start sm:items-center py-5 sm:py-0 justify-between ${
-            footer && "border-t"
-          }`}
+          className={`relative flex ${
+            footer ? "flex-col border-t" : "sm:flex-row"
+          } h-16 items-start sm:items-center py-5 sm:py-0 justify-between `}
         >
           <div className="flex items-center sm:items-stretch sm:justify-start">
             <Logo />
