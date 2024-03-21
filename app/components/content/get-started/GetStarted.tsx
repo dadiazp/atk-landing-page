@@ -1,4 +1,4 @@
-import CallToActionBackgroud from "../../../assets/svg-images/CallToActionBackground.svg";
+import CallToActionBackgroud from "@/app/assets/svg-images/CallToActionBackground.svg";
 import SplittedContainer from "../splitted-container/SplittedContainer";
 
 const GetStarted = () => {

@@ -1,6 +1,6 @@
 import Stars from "@/app/assets/svg-components/Stars";
 import SplittedContainer from "../splitted-container/SplittedContainer";
-import CallToActionBackground2 from "../../../assets/svg-images/CallToActionBackground2.svg";
+import CallToActionBackground2 from "@/app/assets/svg-images/CallToActionBackground2.svg";
 import Text, {
   TextColorEnum,
   TextSizeEnum,

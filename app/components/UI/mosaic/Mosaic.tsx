@@ -1,9 +1,9 @@
 "use-client";
-import Mosaic1 from "../../../assets/svg-images/Mosaic1.svg";
-import Mosaic2 from "../../../assets/svg-images/Mosaic2.svg";
-import Mosaic3 from "../../../assets/svg-images/Mosaic3.svg";
-import Mosaic4 from "../../../assets/svg-images/Mosaic4.svg";
-import Mosaic5 from "../../../assets/svg-images/Mosaic5.svg";
+import Mosaic1 from "@/app/assets/svg-images/Mosaic1.svg";
+import Mosaic2 from "@/app/assets/svg-images/Mosaic2.svg";
+import Mosaic3 from "@/app/assets/svg-images/Mosaic3.svg";
+import Mosaic4 from "@/app/assets/svg-images/Mosaic4.svg";
+import Mosaic5 from "@/app/assets/svg-images/Mosaic5.svg";
 import MosaicList from "./mosaic-list/MosaicList";
 
 const Mosaic = () => {
