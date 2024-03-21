@@ -6,7 +6,7 @@ import Divider from "../divider/Divider";
 
 export default function AccordionComponent() {
   return (
-    <div className="mx-2 my-4 px-8 md:px-20 lg:px-60">
+    <div className="mx-2 my-4 px-4 md:px-20 lg:px-60">
       <Accordion transition transitionTimeout={200}>
         <AccordionItem
           headerString="Is there a free trial available?"
