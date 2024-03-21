@@ -3,8 +3,8 @@ import Text, {
   TextSizeEnum,
 } from "@/app/components/UI/text/Text";
 
-import Android from "@/app/assets/svg-images/Android.svg";
-import Apple from "@/app/assets/svg-images/Apple.svg";
+import Android from "../../../../assets/svg-images/Android.svg";
+import Apple from "../../../../assets/svg-images/Apple.svg";
 
 const DownloadApp = () => {
   return (

@@ -1,4 +1,4 @@
-import Charts from "@/app/assets/svg-images/Charts.svg";
+import Charts from "../../../assets/svg-images/Charts.svg";
 import Text, {
   TextColorEnum,
   TextComponentEnum,
