@@ -1,6 +1,6 @@
-import { TextColorEnum, TextSizeEnum } from "../../UI/text/Text";
 import CallToAction from "../../UI/call-to-action/CallToAction";
 import Mosaic from "../../UI/mosaic/Mosaic";
+import { TextColorEnum } from "../../UI/text/Text";
 
 const FreeTrial = () => {
   return (
