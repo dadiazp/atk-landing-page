@@ -99,9 +99,9 @@ const Text: FC<TextProps> = ({
   colorVariant = TextColorEnum["text-tertiary-main"],
   className,
 }) => {
-  let classNameString: string = `${textStyles.fontSize[fontSizeVariant]} ${
-    textStyles.color[colorVariant]
-  } ${fontWeightVariant} ${className ? className : ""}`;
+  let classNameString: string = `${className ? className : ""} ${
+    textStyles.fontSize[fontSizeVariant]
+  } ${textStyles.color[colorVariant]} ${fontWeightVariant}`;
   return <Component className={classNameString}>{children}</Component>;
 };
 
