@@ -2,9 +2,9 @@
 import BurgueMenu from "@/app/assets/svg-components/BurguerMenu";
 import Logo from "@/app/assets/svg-components/Logo";
 import { useState } from "react";
-import NavList from "./nav-list/Index";
-import NavButtons from "./nav-buttons/Index";
-import MobileNavbar from "./mobile-navbar/Index";
+import NavList from "./nav-list/NavList";
+import NavButtons from "./nav-buttons/NavButtons";
+import MobileNavbar from "./mobile-navbar/MobileNavbar";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

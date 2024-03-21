@@ -1,4 +1,4 @@
-import NavItem from "../nav-item/Index";
+import NavItem from "../nav-item/NavItem";
 
 const NavList = () => {
   return (

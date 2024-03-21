@@ -1,5 +1,5 @@
 import { FC } from "react";
-import NavItem from "../nav-item/Index";
+import NavItem from "../nav-item/NavItem";
 
 interface MobileNavbarProps {
   isMenuOpen: boolean;
